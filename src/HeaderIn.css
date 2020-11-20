@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header-1{
+ margin: 0;
+ color: black; 
+ background-color: rgb(254, 250, 250);
+ height: 80px;
+ width: auto;
+ border-bottom: 1px solid rgb(255, 214, 214);
+ display: flex;
+ align-items: center;
+ font-family: 'Roboto', sans-serif; 
+ 
+}
+
+.hero-baner-1 {
+  background-color: rgb(255, 255, 255);
+  width: auto; 
+}
+
+.header__logo-1{
+  width: 100px;
+  object-fit: contain;
+  margin-top: 0px;
+   
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+.search-container-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 3px;
+  font-size: 0px;
+  text-align: center; 
+  margin-right: 300px;
+  margin-left: 300px;
+ 
+}
+
+.search-container-1 input[type=text] {
+  height: 60px;
+  width: 350px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: blueviolet;
+  border: 1px solid violet;
+}
+
+ 
+
+.header__option-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20x;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+}
+
+.header__optionLineOne-1 {
+  font-size: 10px;
+}
+
+.header__optionLineTwo-1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header__nav-1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative ;
+  top: 0;
+  z-index: 100;
+ 
+}
+ 
+.header__optionBasket{
+  color: violet;
+  margin-top: 0px;
+  margin-left: 25px;
+}
+ 

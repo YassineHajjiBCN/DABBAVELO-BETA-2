@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container-za{
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+ 
+}
+
+.hero-card{
+  width: 1920px;
+  height: 300px;
+  background-image: url("gre-pro.jpg"); 
+  padding-top: 50px;
+  
+}
+
+.card-pr{
+  height: 200px;
+  width: 400px;
+  margin-left: 75px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 35px;
+  padding-top: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-za{
+  display: flex;
+  width: auto;
+  padding: 25px;
+  justify-content: left;
+  align-items: center;
+  list-style: none; 
+  border-bottom: .3px solid black;
+  margin-bottom: 25px;
+ 
+  
+}
+
+ .nav-za li{
+   margin-left: 50px;
+ }
+
+.foods {
+
+}
+
+.food li{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 250px;
+  width: 400px;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+
+.rest-prod-li{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+ 
+ 
+}
+
+ h1 {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  margin-left: 50px;
+}
+
+.title-restpro{
+ font: 35px solid;
+ margin-bottom: 10px ;
+
+}
+
+.label-restpro {
+  font: 25px ;
+  margin-bottom: 10px ;
+}
+
+.time-restpro{
+  font: 20px solid ;
+  margin-bottom: 30px ;
+}
+
+.adress-restpro{
+  font: 25px solid;
+}
